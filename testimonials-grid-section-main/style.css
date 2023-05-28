@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 81%);
+}
+
+
+main {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    padding: 150px;
+    max-width: 1440px;
+}
+
+section {
+    align-content: center;
+    padding: 10px;
+    border: 2em;
+    margin: 5px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+img {
+    display: inline-block;
+    border-radius: 100%;
+    border: solid 2px;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.user {
+    padding: 9px;
+    display: block;
+    justify-content: right;
+    flex-direction: column;
+}
+
+
+.box-1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-position: 290px top;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: hsl(210, 46%, 95%);
+    align-content: center;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.box-2 {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    color: hsl(210, 46%, 95%);
+    align-content: center;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.box-3 {
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+    color: hsl(217, 19%, 35%);
+    align-content: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box-4 {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    color: hsl(210, 46%, 95%);
+    align-content: center;
+    grid-column: 2 / 5;
+    grid-row: 2;
+}
+
+.box-5 {
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+    color: hsl(217, 19%, 35%);
+    align-content: center;
+    grid-column: 5;
+    grid-row: 1 / 3;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+h4 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 13px;
+}
+
+small {
+    opacity: 0, 7;
+}
+
+@media (max-width:880px) {
+    main {
+        display: inline-block;
+    }
+
+    section{
+        min-width: 375px;
+    }
+}
