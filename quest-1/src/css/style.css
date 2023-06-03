@@ -1,0 +1,131 @@
+body {
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    grid-template-columns: 1fr 1fr;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+}
+
+.header {
+    grid-area: header;
+}
+
+.header .logo {
+    display: flex;
+    padding: 40px;
+}
+
+.container {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .mockup {
+    width: 50%;
+    height: 100%;
+    padding: 80px;
+}
+
+.container .text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    margin: 50px;
+}
+
+.container .text .title {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.container .text p {
+    margin: 24px 0;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.container .text .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    padding: 8px 45px;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    border-radius: 30px;
+    border-style: none;
+    width: 60%;
+    box-shadow: 1px 2px 8px 1px rgba(36, 36, 36, 0.75);
+    -webkit-box-shadow: 1px 2px 8px 1px rgba(36, 36, 36, 0.75);
+    -moz-box-shadow: 1px 2px 8px 1px rgba(36, 36, 36, 0.75);
+    transition: 0.3s ease-in-out;
+}
+
+.container .text .button:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    max-width: 1800px;
+}
+
+.footer .media ul {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.footer nav ul li a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer nav ul li a:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1.3px solid hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.attribution a:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
