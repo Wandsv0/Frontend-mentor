@@ -8,6 +8,8 @@ Screenshot
 
 ![](./src/screenshots/screenshot2.png)
 
+![](./screenshots/screenshot 3.png)
+
 The project is a simple landing page, with an intro and a register button.
 
 Links
@@ -25,4 +27,3 @@ In this project I learned better how flexbox works, and improved link knowledge,
 
 Author
 Github - [Wanderson Viana](https://github.com/Wandsv0)
-Frontend Mentor - [@7Wall](https://www.frontendmentor.io/profile/7Wall)
