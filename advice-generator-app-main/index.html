@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variaveis.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Advice generator app</title>
+</head>
+<body>
+  <main class="card">
+    <div class="advice">
+    <h1 class="advice-id" >Advice #<span id="advice-id"></span></h1>
+
+    <p class="text" id="text"></p>
+    <picture>
+      <source media="(max-width: 768px)" srcset="./src/images/pattern-divider-mobile.svg">
+      <img src="./src/images/pattern-divider-desktop.svg" alt="divider">
+    </picture>
+    <button id="btn" class="btn">
+      <img src="./src/images/icon-dice.svg" alt="dice" class="dice">
+    </button>
+  </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Wandsv0" target="_blank">Wanderson Viana</a>.
+  </footer>
+
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>

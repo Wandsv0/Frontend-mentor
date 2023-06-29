@@ -1,0 +1,64 @@
+body {
+    font-weight: 800;
+    background-color: var(--background-color);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.advice {
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+}
+
+.advice-id {
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.text {
+    text-align: center;
+    text-transform: initial;
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.btn {
+    transform: translateY(80%);
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: var(--advice-dice-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 25px var(--advice-dice-color);
+}
+
+.attribution {
+    color: aliceblue;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--advice-dice-color);
+}
